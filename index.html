@@ -283,7 +283,12 @@
                                     1.99</span>
                                 <h3 class="plan-title mbr-fonts-style display-5">Includes both Windows & Mac versions</h3>
 
-                                <button>BUY BUTTON</button>
+                                <form action='https://www.2checkout.com/checkout/purchase' method='post'>
+                                  <input type='hidden' name='sid' value='203709731'>
+                                  <input type='hidden' name='quantity' value='1'>
+                                  <input type='hidden' name='product_id' value='1'>
+                                  <input name='submit' type='submit' value='Buy now' class="btn btn-primary" >
+                                </form>
 
                                 <hr>
                             </div>
